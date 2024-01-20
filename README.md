@@ -6,11 +6,14 @@
 Clone and create the environment.
 
 ```commandline
-git clone https://github.com/charlesxu90/sgpt.git
-cd sgpt
+git clone https://github.com/charlesxu90/helm-gpt.git
+cd helm-gpt
 
 mamba env create -f environment.yml
 mamba activate helm-gpt-env
+
+conda install conda-forge::git-lfs
+git lfs pull
 ```
 
 ```commandline
