@@ -1,5 +1,6 @@
 # HELM-GPT: de novo macrocyclic peptide design using generative pre-trained transformer
 
+! [HELM-GPT-image](./helm-gpt.png)
 ## Installation and running
 ### Clone and Create environment
 Clone git repository and then create the environment as follows.
