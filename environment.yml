@@ -1,0 +1,31 @@
+name: helm-gpt-env
+
+channels:
+  - conda-forge
+  - defaults
+  - anaconda
+
+dependencies:
+  - python=3.7
+  - pip
+
+# jupyter-lab dependencies
+  - ipython           
+  - ipywidgets
+  - jupyterlab
+  - jupyterlab-git
+  - jupyterlab-nvdashboard
+  - jupyterlab-lsp
+  - matplotlib
+
+# machine learning & data analysis dependencies
+  - tqdm
+  - numpy          
+  - scipy
+  - pandas
+  - tensorboard
+  - biopython=1.77
+
+  - pip:
+    - -r requirements.txt
+
