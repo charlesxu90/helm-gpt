@@ -26,6 +26,3 @@ dependencies:
   - tensorboard
   - biopython=1.77
 
-  - pip:
-    - -r requirements.txt
-
