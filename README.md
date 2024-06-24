@@ -38,3 +38,16 @@ python generate.py --model_path result/prior/chembl_5.0/gpt_model_34_0.143.pt --
 
 ## License
 This code is licensed under [MIT License](./LICENSE.txt).
+
+## Citation
+If you're using HELM-GPT in your research or applications, please cite using this BibTeX:
+```bibtex
+@article{xu2024helm,
+  title={HELM-GPT: de novo macrocyclic peptide design using generative pre-trained transformer},
+  author={Xu, Xiaopeng and Xu, Chencheng and He, Wenjia and Wei, Lesong and Li, Haoyang and Zhou, Juexiao and Zhang, Ruochi and Wang, Yu and Xiong, Yuanpeng and Gao, Xin},
+  journal={Bioinformatics},
+  pages={btae364},
+  year={2024},
+  publisher={Oxford University Press}
+}
+```
