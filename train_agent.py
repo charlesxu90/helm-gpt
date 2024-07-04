@@ -8,7 +8,6 @@ import torch
 from agent.agent_trainer import AgentTrainer
 from model.model import load_gpt_model
 from utils.dataset import HelmDictionary
-from agent.scoring.scaffold import Scaffold
 
 logging.basicConfig(format='%(asctime)s - %(message)s', level=logging.INFO)
 logger = logging.getLogger(__name__)
